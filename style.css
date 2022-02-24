@@ -1,60 +1,67 @@
+/**determines the bg color, font size, text alignment, style for overall elements**/
 body{
   background-color: #8B8ADB;
-  font-size: Courier New;
+  font-style: : Courier New;
   text-align: center;
-  color: #4D4C8F;
   font-size: 10vmin;
 }
 
+/**determines the font color for both the title and paragrpah**/
 h1,p{
   color:#FFFFFF;
 }
 
+/**determines the font size relative to screen **/
 p{
   font-size: 5vmin;
 }
 
+/**increases the first letter of the paragraph**/
 p::first-letter{
   font-size: 200%;
 }
 
+/**overarching class for flex**/
 .flex-container{
   display: flex;
   flex-direction:row;
   justify-content: space-around;
 }
 
+/**overarching settings in width, margin, color, and height for the boxes**/
 .flexboxitem{
   width: 300px;
   margin: 10px;
   background-color: #8B8ADB;
+  height: 300px;
 }
 
+/**setting in border style and color, makes each box appear on screen**/
 .flexboxitem-1{
   border-style: solid;
   border-width: 10px;
   border-color: #3A3A5C;
-  min-height: 300px;
 }
+/**setting in border style and color, makes each box appear on screen**/
 .flexboxitem-2{
   border-style: solid;
   border-width: 10px;
   border-color: #3A3A5C;
-  min-height: 300px;
 }
+/**setting in border style and color, makes each box appear on screen**/
 .flexboxitem-3{
   border-style: solid;
   border-width: 10px;
   border-color: #3A3A5C;
-  min-height: 300px;
 }
+/**setting in border style and color, makes each box appear on screen**/
 .flexboxitem-4{
   border-style: solid;
   border-width: 10px;
   border-color: #3A3A5C;
-  min-height: 300px;
 }
 
+/**makes each box change color when hovered**/
 .flexboxitem-1:hover{
   background-color: #BD87E8;
 }
